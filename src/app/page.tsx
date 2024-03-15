@@ -46,7 +46,7 @@ export default function Home() {
       <div className="mb-[50px] lg:mb-[70px]">
         <h1 className='text-4xl font-serif text-center font-bold '>TODO APP</h1>
         {/* input div */}
-        <div className='flex justify-center mt-10 text-lg gap-4'>
+        <div className='flex justify-center mt-10 text-lg lg:gap-4 gap-2'>
           <input
             placeholder='write text here'
             type="text"
@@ -61,7 +61,7 @@ export default function Home() {
             className='shadow border-b bg-[#eeeeee] focus:outline-none py-3 px-3 rounded w-[10%]' />
           <button
             onClick={addtodo}
-            className='bg-gray-900 hover:bg-gray-700 text-white rounded-md cursor-pointer py-2 px-4'>Add Todo</button>
+            className='bg-gray-900 hover:bg-gray-700 text-white rounded-md cursor-pointer text-base py-2 px-4'>Add Todo</button>
         </div>
         {/* input div end */}
       </div>
