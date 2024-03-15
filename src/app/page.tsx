@@ -5,7 +5,7 @@ import { useState } from "react"
 export default function Home() {
   //define state
   const [todos, setTodos] = useState([
-    { todo: "I have to go home!", id: 1 },
+    { todo: "I have to go visit home!", id: 1 },
   ]);
 
   const [inputVal, setInput] = useState("")
